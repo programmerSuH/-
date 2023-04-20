@@ -74,3 +74,16 @@ RocketMQ消息队列
 
 Nginx网关
 
+java 8
+
+java并发编程
+
+jvm
+
+springmvc
+
+springcloud
+
+redis五种常⽤数据类型，底层磁盘以及io模型、数据持久化机制、哨兵机制，对redis单机和分布式集群
+
+mysql，mysql锁机制、事务、索引

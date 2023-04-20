@@ -1,0 +1,116 @@
+<mxfile host="65bd71144e">
+    <diagram id="XmpiBBFXlKHFvewlrAqy" name="Page-1">
+        <mxGraphModel dx="668" dy="1006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="19" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="100" y="200" width="250" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="19">
+                    <mxGeometry y="30" width="250" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="19">
+                    <mxGeometry x="20" y="120" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="进程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="19">
+                    <mxGeometry x="20" y="40" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="地址空间" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="19">
+                    <mxGeometry x="95" y="40" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="文件" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="19">
+                    <mxGeometry x="170" y="40" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="CPU" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="19">
+                    <mxGeometry x="20" y="210" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="内存" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="19">
+                    <mxGeometry x="95" y="210" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="磁盘" style="ellipse;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="19">
+                    <mxGeometry x="170" y="210" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="19" source="6" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="230" as="sourcePoint"/>
+                        <mxPoint x="150" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="19" source="7" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="230" as="sourcePoint"/>
+                        <mxPoint x="150" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="19" source="8" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="230" as="sourcePoint"/>
+                        <mxPoint x="150" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="操作系统功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="19">
+                    <mxGeometry width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="414" y="200" width="445" height="315" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="36">
+                    <mxGeometry width="445" height="315" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="group;fillColor=#ffff8a;strokeColor=#36393d;" vertex="1" connectable="0" parent="36">
+                    <mxGeometry x="170" y="184.15384615384613" width="250" height="116.3076923076923" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFC7C7;strokeColor=#36393d;fillStyle=auto;" vertex="1" parent="24">
+                    <mxGeometry width="250" height="116.3076923076923" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="bootloader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="24">
+                    <mxGeometry x="30" y="9.692307692307693" width="70" height="29.076923076923077" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="24">
+                    <mxGeometry x="140" y="9.692307692307693" width="70" height="29.076923076923077" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;DISK&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="24">
+                    <mxGeometry x="90" y="77.53846153846155" width="60" height="29.076923076923077" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="36">
+                    <mxGeometry x="10" y="38.769230769230774" width="110" height="213.23076923076925" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="BIOS加载bootloader" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="36" source="26" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="BIOS ROM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="36">
+                    <mxGeometry x="10" y="106.61538461538463" width="110" height="38.769230769230774" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="36">
+                    <mxGeometry x="35" y="222.92307692307696" width="60" height="29.076923076923077" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="bootloader加载OS代码和数据" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;" edge="1" parent="36">
+                    <mxGeometry x="-0.342" y="-18" relative="1" as="geometry">
+                        <mxPoint x="121" y="219.69230769230776" as="sourcePoint"/>
+                        <mxPoint x="346" y="222.92307692307696" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="231" y="242.30769230769235"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="bootloader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="36">
+                    <mxGeometry x="10" y="193.84615384615387" width="110" height="29.076923076923077" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="36" source="21" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="OS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="36">
+                    <mxGeometry x="10" y="77.53846153846155" width="110" height="29.076923076923077" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="36" source="22" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font color=&quot;#e8d9d9&quot;&gt;OS启动&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="170" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
