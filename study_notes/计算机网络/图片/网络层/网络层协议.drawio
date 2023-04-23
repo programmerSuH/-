@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="ftym5Kq-0qgmPsbcjLjc" name="Page-1">
+        <mxGraphModel dx="501" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="30" y="220" width="440" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF3333;" vertex="1" parent="6">
+                    <mxGeometry width="440" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font color=&quot;#ff3333&quot;&gt;路由协议&lt;br&gt;&lt;/font&gt;&lt;ul style=&quot;line-height: 60%;&quot;&gt;&lt;li&gt;路径选择&lt;/li&gt;&lt;li&gt;RIP、OSPF、BGP&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="6">
+                    <mxGeometry x="10" y="40" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font color=&quot;#ff3333&quot;&gt;IP协议&lt;br&gt;&lt;/font&gt;&lt;ul style=&quot;line-height: 110%;&quot;&gt;&lt;li&gt;地址约定&lt;/li&gt;&lt;li&gt;数据报格式&lt;/li&gt;&lt;li&gt;分组处理约定&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="6">
+                    <mxGeometry x="250" y="20" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font color=&quot;#ff3333&quot;&gt;ICMP协议&lt;br&gt;&lt;/font&gt;&lt;ul style=&quot;line-height: 60%;&quot;&gt;&lt;li&gt;错误报告&lt;/li&gt;&lt;li&gt;路由器信令&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="6">
+                    <mxGeometry x="250" y="140" width="180" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
