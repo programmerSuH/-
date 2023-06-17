@@ -47,7 +47,7 @@ echo 'Run successful.'
 4. 修改sql目录的删除类型操作，G移动到文件末尾，dd删除一行
 
 5. 创建数据库createdb testdb
-6. 将sql文件导入db，psql -f complex.sql testdb
+6. 将sql文件导入db，psql -f complex.sql testdbcd 
 
 
 
@@ -766,11 +766,11 @@ MultiExecPrivateHash(HashState *node)
 
 
 
-- `src/backend/executor/nodeHash.c`
-- `src/backend/executor/nodeHashjoin.c`
-- `src/backend/optimizer/plan/createplan.c`
-- `src/include/executor/nodeHash.h`
-- `src/include/nodes/execnodes.h`
+- `src/backend/executor/nodeHash.c`  	                创建哈希表		
+- `src/backend/executor/nodeHashjoin.c`             进行哈希连接
+- `src/backend/optimizer/plan/createplan.c`     创建计划节点
+- `src/include/executor/nodeHash.h`                      哈希函数声明
+- `src/include/nodes/execnodes.h`                          数据结构修改（HashJoinState结构）
 
 
 
@@ -842,7 +842,7 @@ MultiExecPrivateHash(HashState *node)
 
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ddbb11eda5ea4c31a271855707925b71~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?)
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0d8b43f68ca24e118c8b98f9a538a598~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?)
+
 
 #### 3.2.2 修改 execnodes.h
 
